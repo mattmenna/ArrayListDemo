@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.ArrayList;
 
 /**
@@ -5,6 +6,9 @@ import java.util.ArrayList;
  */
 
 public class ArrayListDemo {
+    private JPanel panel1;
+    private JLabel projectName;
+
     public static void main(String[] args) {
         System.out.println("Hello World");
         //declare an array of strings
